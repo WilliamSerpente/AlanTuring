@@ -33,8 +33,9 @@ html{
 #nav{
     background-color: #DAC0A3;
     color:rgb(29, 29, 29);
-    display: table;
+    display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 #nav ol{
@@ -55,7 +56,7 @@ html{
     padding: 15px 25px 15px 25px; 
     display: table;
     border-right: 2px solid #0F2C59;
-
+     
     color:#0F2C59;
 }
 
@@ -81,11 +82,19 @@ html{
 #inventos img{
     border-radius: 50px;
 
-    float: right;
-    max-width: 12%;
+    float: left;
+    max-width: 18%;
     max-height: 12%;
     padding-right: 5%;
     padding-left: 4%;
+}
+#aportes img{
+    float: right;
+    max-width: 25%;
+    max-height: 25%;
+    padding-right: 4%;
+    padding-left: 5%;
+    padding-top: 2%;
 }
 
 #biografia img{
@@ -155,7 +164,7 @@ ul{
         #header h1{
             padding-left: 15%; 
             line-height: 300px;
-            font-size: 54px;
+            font-size: 48px;
         }
 
         h2{
@@ -241,6 +250,14 @@ ul{
             max-width: 40%;
             max-height: 40%;
         }
+        #aportes img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2.5%;
+            max-width: 40%;
+            max-height: 40%;
+        }
 }
 
 @media  (max-width:393px) {
@@ -255,7 +272,7 @@ ul{
         #header h1{
             padding-left: 10%; 
             line-height: 300px;
-            font-size: 24px;
+            font-size: 32px;
         }
 
         h2{
@@ -339,6 +356,14 @@ ul{
             margin-right: auto;
             margin-bottom: 2.5%;
             max-width: 40%;
+            max-height: 40%;
+        }
+        #aportes img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5%;
+            max-width: 90%;
             max-height: 40%;
         }
 }
